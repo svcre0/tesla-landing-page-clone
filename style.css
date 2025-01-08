@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.banner-wrap {
+    background-image: url("./assets/Model3_57.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 32px;
+}
+
+.nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+    color: rgb(238, 237, 237);
+}
+
+.nav-item:hover {
+    background-color: rgb(114, 114, 114) ;
+    border-bottom-left-radius: 99px;
+    border-bottom-right-radius: 99px;
+    border-top-left-radius: 99px;
+    border-top-right-radius: 99px;
+}
+
+
+
+h1{
+
+font-size: 2.625rem;
+font-weight: 500;
+color: #1e1f20;
+}
+
+h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #1e1f20;
+}
+
+
+
+p{
+
+ font-size: 1.0625rem;
+ font-weight: 400;
+ padding: 2px 26px 10px 24px;
+ color: #1e1f20;
+
+}
+
+p a{
+
+color: #131416;
+
+
+}
+
+
+.logo {
+    height: 1.5rem;
+    width: 7.5rem;
+    color: rgb(230, 230, 230);
+}
+
+main {
+
+    text-align: center;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section {
+    margin-top: calc(85px - 56px);
+   
+}
+
+.actions-area  {
+    margin-bottom: 60px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    background-color: rgb(148, 150, 40);
+    width: 16.5rem;
+    height: 2.625rem;
+    padding: 7px 30px;
+    margin-right: 14px;
+    cursor: pointer;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+button:hover{
+
+    background-color: #5c5b5b;
+   
+    }
+
+
+.btn-dark {
+    background-color: #0f1011;
+    color: rgb(219, 218, 218);
+
+}
+
+.btn-dark a {
+    
+    color: rgb(219, 218, 218);
+    text-decoration: none;
+}
+
+.btn-light a{
+ color: rgb(41, 41, 41);
+ text-decoration: none;
+}
+
+.btn-light {
+    background-color: #bebebe;
+    color: #0c0d0f;
+}
+
+.material-symbols-outlined{
+
+ color:rgb(219, 218, 218) ;
+ cursor: pointer;
+
+
+}
+.material-symbols-outlined:hover{
+
+
+color: #bbbaba;
+
+
+}
+
+.paragraph{
+
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 6px 26px 16px 24px;
+    color: #212224;
+    
+    }
+
+
